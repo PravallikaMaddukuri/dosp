@@ -3,11 +3,11 @@
 
 
 ## Team Members:
-Uma Sai Sree Avula - UFID : 38554667<br/>
-Bhanu Rekha Musuluri - UFID : 98477459<br/>
+Pravallika Maddukuri- UFID : 5980-7015<br/>
+Sai Siddharth Upadhyayula - UFID : 7459-9449<br/>
 
 ## Description
-This project implements the gossip algorithm which is used for propagation of the data. There are actors in the model and each actor stores two variables s and w. Upon receiving the message from other neighbour actors, the variables get added up and upon sending the messages the values of variables are halved. Each time s/w value is calculated and we terminate the algorithm when the value of s/w doesn't change more than 10^-10 in 3 consecutive rounds. Hence this project is helpful in determining the convergence of gossip algorithm.   
+This project's goal is to implement the Chord protocol using overlay networks that can deliver services. This project uses Erlang and the Actor Model to illustrate the value of the Chord protocol.   
 
 ## Execution Steps - 
 
