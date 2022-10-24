@@ -38,6 +38,8 @@ This project's goal is to implement the Chord protocol using overlay networks th
 •	Each individual computer responds to the requests received and returns the total jumps per lookup and stops.<br/>
 •	Lastly, the mean of the total jumps per search in the chord setup is calculated.<br/>
 
+Highest Working Node Screenshot:
+<img width="958" alt="highest node" src="https://user-images.githubusercontent.com/116412716/197445068-7600bfa0-6f74-42d0-bdfc-4668a45738a4.png">
 
 
 2.INPUT PROVIDED-<br/>
@@ -46,11 +48,18 @@ This project's goal is to implement the Chord protocol using overlay networks th
 3.OUTPUT -<br/>
       Average Hops = Total Hops / Total received requests
 
-      The maximum chord setup size to be obtained is with 30,000 with mean jump value = 6.99.
+      The maximum chord setup size to be obtained is with 15,000 with mean jump value = 5.941.
       
 4. FINDINGS
       The number of nodes is directly proportional to the mean hop size.
       The number of requests received is inversely proportional to the mean hop size. 
+      
+      Dataset Screenshot
+      <img width="319" alt=" dataset screenshot" src="https://user-images.githubusercontent.com/116412716/197445099-32f934be-4f57-4ccf-a63f-24f3d40b79ae.png">
+
+      Graph
+      <img width="646" alt="graph" src="https://user-images.githubusercontent.com/116412716/197445118-6196aa4d-eb4d-43ca-a86f-9bbaf7db68a1.png">
+
 
 
 
