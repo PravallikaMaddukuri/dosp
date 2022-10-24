@@ -13,20 +13,18 @@ This project's goal is to implement the Chord protocol using overlay networks th
 
 1. Create a node for the server using the command -
 
-      erl -name uavula@192.168.0.105
+      erl -name pravallika@10.20.32.67
 
 2. Compile the modules using the command -
 
-      c(gossip). <br/>
-      c(pushsum). <br/>
-      c(topology). <br/>
-      c(main). <br/>
+      c(project3). <br/>
+      
 
 3. To start the compiled program and enable the main module, use the command - 
 
-      main:start(8192, "2D", "gossip").
+      project3:run(2,2)
 
-      Here the first argument represents the number of workers. The second argument represents the type of topology. The third argument represents the name       of the algorithm.
+      Here the first argument represents the number of nodes. The second argument represents the number of requests.
 
 
 ## Report Questions
