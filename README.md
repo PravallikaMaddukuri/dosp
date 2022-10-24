@@ -17,12 +17,12 @@ This project's goal is to implement the Chord protocol using overlay networks th
 
 2. Compile the modules using the command -
 
-      c(project3). <br/>
+      c(project_3). <br/>
       
 
 3. To start the compiled program and enable the main module, use the command - 
 
-      project3:run(2,2)
+      project_3:root(2,2)
 
       Here the first argument represents the number of nodes. The second argument represents the number of requests.
 
