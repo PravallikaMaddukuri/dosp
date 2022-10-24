@@ -29,4 +29,30 @@ This project's goal is to implement the Chord protocol using overlay networks th
 
 ## Report Questions
 
-1. What is working ? -
+1. What is working ? -<br/>
+•	The chord rule executes perfectly.<br/>
+•	Each individual node has a table with entries to and from the node known as the finger table.<br/>
+•	Every node creates a unique key value for every request received.<br/>
+•	Once all the individual computers are ready, we can perform a lookup for a key value on an arbitrary individual computer and if the lookup does not         match the current node, then the lookup can be transferred to the neighboring individual computers by making use of the log table.<br/>
+•	The number of jumps increases for each key value once a search is successful.<br/>
+•	Each individual computer responds to the requests received and returns the total jumps per lookup and stops.<br/>
+•	Lastly, the mean of the total jumps per search in the chord setup is calculated.<br/>
+
+
+
+2.INPUT PROVIDED-<br/>
+      Number of Nodes and Number Of Requests
+      
+3.OUTPUT -<br/>
+      Average Hops = Total Hops / Total received requests
+
+      The maximum chord setup size to be obtained is with 30,000 with mean jump value = 6.99.
+      
+4. FINDINGS
+      The number of nodes is directly proportional to the mean hop size.
+      The number of requests received is inversely proportional to the mean hop size. 
+
+
+
+
+
