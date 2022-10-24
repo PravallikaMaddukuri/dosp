@@ -54,11 +54,11 @@ Highest Working Node Screenshot:
       The number of nodes is directly proportional to the mean hop size.
       The number of requests received is inversely proportional to the mean hop size. 
       
-      Dataset Screenshot
-      <img width="319" alt=" dataset screenshot" src="https://user-images.githubusercontent.com/116412716/197445099-32f934be-4f57-4ccf-a63f-24f3d40b79ae.png">
+      Dataset Screenshot<br/>
+      <img width="319" alt=" dataset screenshot" src="https://user-images.githubusercontent.com/116412716/197445099-32f934be-4f57-4ccf-a63f-24f3d40b79ae.png"><br/>
 
-      Graph
-      <img width="646" alt="graph" src="https://user-images.githubusercontent.com/116412716/197445118-6196aa4d-eb4d-43ca-a86f-9bbaf7db68a1.png">
+      Graph<br/>
+      <img width="646" alt="graph" src="https://user-images.githubusercontent.com/116412716/197445118-6196aa4d-eb4d-43ca-a86f-9bbaf7db68a1.png"><br/>
 
 
 
